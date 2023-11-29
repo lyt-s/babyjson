@@ -1,0 +1,25 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "cmake.generator": "Ninja",
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "files.autoSave": "off",
+    "editor.formatOnSave": true,
+    "clang-format.assumeFilename": "${workspaceFolder}/.clang-format",
+    "markdownlint.config": {
+        "[markdown]": {
+            "editor.formatOnSave": true,
+            "editor.formatOnPaste": true
+        },
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": true
+        }
+    }
+    // "cmake.configureArgs": [
+    //     "-DCMAKE_INSTALL_PREFIX=..."
+    // ],
+    // "cmake.buildArgs": [
+    //     "-j 4"
+    // ]
+}
